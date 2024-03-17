@@ -1,0 +1,500 @@
+   26  git status
+   27  git log
+   28  git log -p
+   29  git log -p -3
+   30  git log --stat
+   31  git log --pretty=oneline
+   32  git log --pretty=short
+   33  git clone https://github.com/pandas-dev/pandas.git mypanda
+   34  cd mypanda/
+   35  git status
+   36  git log
+   37  git log -p
+   38  git log -p -4
+   39  git log --stat
+   40  git log --pretty=oneline
+   41  git log --pretty=short
+   42  git log --pretty=full
+   43  git log --since=2.days
+   44  git log --pretty=format:%h -- %an
+   45  git log --pretty=format:"%h -- %an"
+   46  git log --pretty=format:"%h -- %ae"
+   47  git log --pretty=format:"%H -- %ae"
+   48  git log --pretty=format:"%H -- %an"
+   49  git status
+   50  git log -p -1
+   51  git status
+   52  git commit --amend
+   53  git log -p -1
+   54  git status
+   55  git add .
+   56  git commit --amend
+   57  git log -p -1
+   58  git status
+   59  git status
+   60  git init
+   61  git status
+   62  git init
+   63  git status
+   64  git add .
+   65  git commit -m "initial commit"
+   66  git status
+   67  git status
+   68  git add first_renamed.txt
+   69  git status
+   70  git restore --staged first_renamed.txt
+   71  git status
+   72  git status
+   73  git status
+   74  git checkout -- first_renamed.txt
+   75  git status
+   76  git status
+   77  git checkout -- first_renamed.txt
+   78  git status
+   79  git add .gitignore
+   80  git status
+   81  git checkout -- .gitignore
+   82  git status
+   83  git commit -m "this"
+   84  git status
+   85  git status
+   86  git checkout -f
+   87  git status
+   88  git status
+   89  git remote
+   90  git remote add origin https://github.com/SiddhantDash6/GitTutorialDemo.git
+   91  git remote
+   92  git remote -v
+   93  git push -u origin main
+   94  git push -u origin main
+   95  sh-keygen -t rsa -b 4096 -C "siddhantdash98@gmail.com"
+   96  ssh-keygen -t ed25519 -C "siddhantdash98@gmail.com"
+   97  eval `ssh-agent -s`
+   98   ssh-add ~/.ssh/id_ed25519
+   99  tail ~/.ssh/id_ed25519.pub
+  100  git push -u origin main
+  101  git push -u origin master
+  102  git push -u origin master
+  103  git status
+  104  git status
+  105  git add .
+  106  git commit -m "Added this.txt"
+  107  git commit -m "Added this.txt github"
+  108  git push -u origin master
+  109  git status
+  110  git config --global alias.st status
+  111  git st
+  112  git config --global alias.ci commit
+  113  git ci
+  114  git st
+  115  git add .
+  116  git st
+  117  git config --global alias.unstage 'restore --staged--'
+  118  git unstage this.txt
+  119  git st
+  120  git unstage this.txt
+  121  git unstage this.txt
+  122  git st
+  123  git unstage this.txt
+  124  git st
+  125  git add .
+  126  git st
+  127  git config --global alias.unstage 'restore --staged--'
+  128  git unstage this.txt
+  129  git st
+  130  git st
+  131  git add .
+  132  git st
+  133  git config --global alias.unstage 'restore --staged--'
+  134  git unstage this.txt
+  135  git config --global alias.unstage 'restore --staged --'
+  136  git unstage this.txt
+  137  git st
+  138  git config --global alias.last 'log -p -1'
+  139  git last
+  140  git status
+  141  git restore this.txt
+  142  git st
+  143  git checkout -b develop
+  144  git status
+  145  git status
+  146  git add .
+  147  git status
+  148  git commit -m "beautified structure"
+  149  git checkout master
+  150  git status
+  151  rm -rf .git
+  152  git status
+  153  git init
+  154  git add .
+  155  git commit -m "Initial Commit"
+  156  git status
+  157  git status
+  158  git add .
+  159  git commit -m "changed first renamed"
+  160  git status
+  161  git commit -a -m "changed"
+  162  git checkout -b develop
+  163  git commit -a -m "changed"
+  164  git status
+  165  git checkout master
+  166  git checkout develop
+  167  git branch
+  168  git checkout master
+  169  git branch
+  170  git st
+  171  rm -rf .git
+  172  git st
+  173  git status
+  174  git init
+  175  git status
+  176  git add .
+  177  git commit -m "Initial Commit"
+  178  git status
+  179  git checkout -b tryCleanUp
+  180  git status
+  181  git add .
+  182  git commit -m "broken features"
+  183  git checkout master
+  184  git add .
+  185  git commit -m "Added about"
+  186  git checkout tryCleanUp
+  187  git status
+  188  git add .
+  189  git commit -m "fixed the structure"
+  190  git checkout master
+  191  git branch
+  192  git checkout tryCleanUp
+  193  git commit -a -m "Made changes to dropdown"
+  194  git checkout master
+  195  git status
+  196  git merge tryCleanUp
+  197  git status
+  198  git merge tryCleanUp
+  199  git add .
+  200  git commit
+  201  git status'
+  202  git status
+  203  git status
+  204  git init
+  205  git status
+  206  git add .
+  207  git commit -m "Initial commit"
+  208  git status
+  209  git add .
+  210  git commit -m "added index.html"
+  211  git status
+  212  git status
+  213  git add . 
+  214  git commit -m "title 1"
+  215  git status
+  216  git status
+  217  git commit -m "title 2"
+  218  git add .
+  219  git commit -m "title 2"
+  220  git status
+  221  git checkout -b issue1
+  222  git commit -a -m "this is c4"
+  223  git commit -a -m "this is c5"
+  224  git commit -a -m "this is c7"
+  225  git st
+  226  git checkout master
+  227  git commit -a -m "this is c6"
+  228  git merge issue1
+  229  git st
+  230  git add index.html
+  231  git status
+  232  git commit -m "merged issue1"
+  233  git log
+  234  git branch
+  235  git checkout -b issue2
+  236  git add .
+  237  git commit -m "did some gadbad"
+  238  git checkout master
+  239  git status
+  240  git branch
+  241  git branch -v
+  242  git branch --merged
+  243  git branch --no-merged
+  244  git branch -d issue2
+  245  git branch -d issue1
+  246  git branch
+  247  git branch -D issue2
+  248  git branch
+  249  git status
+  250  git log
+  251  git branch
+  252  git checkout -b bugfix
+  253  git branch
+  254  git status
+  255  git log
+  256  git status
+  257  git add .
+  258  git commit -m "fixed the bug"
+  259  git status
+  260  git checkout master
+  261  git branch
+  262  git remote -v
+  263  git remote add origin https://github.com/SiddhantDash6/DemoRepository.git
+  264  git remote
+  265  git remote -v
+  266  git push -u origin main
+  267  git push -u origin master
+  268  git branch
+  269  git status
+  270  git checkout bugfix
+  271  git checkout master
+  272  git checkout bugfix
+  273  git push origin bugfix
+  274  git status
+  275  git push origin bugfix:mybugfix
+  276  git branch
+  277  git checkout master
+  278  git branch
+  279  git branch -d bugfix
+  280  git merge bugfix
+  281  git st
+  282  git branch -d bugfix
+  283  git branch
+  284  git push origin master
+  285  git push -d origin bugfix
+  286  git push -d origin mybugfix
+  287  git status
+  288  git init
+  289  git status
+  290  git add --a
+  291  git status
+  292  git commit -m "Initial Commit"
+  293  git status
+  294  git clone 
+  295  git clone https://gitlab.com/sunilghimire/ipl-first-innings-score-prediction.git
+  296  pwd
+  297  cmd
+  298  explorer.
+  299  cls
+  300  git --version
+  301  git --exec-path
+  302  where git
+  303  q
+  304  exit()
+  305  ls -l
+  306  vi darling
+  307  cat darling
+  308  cat -b darling
+  309  touch kolkata.txt
+  310  ls
+  311  pwd
+  312  users
+  313  w
+  314  users w
+  315  pwd
+  316  ls -l
+  317  ls -la
+  318  clear
+  319  ps
+  320  mkdir day1
+  321  cd day1
+  322  cd..
+  323  cd~
+  324  cd.
+  325  clear
+  326  rmdir day1
+  327  clear
+  328  uname
+  329  uname -s
+  330  uname -r
+  331  mkdir 123
+  332  cd ../
+  333  cd --
+  334  cd 123
+  335  who
+  336  who 123
+  337  who -a
+  338  cd RoyalMailHotel
+  339  cd 
+  340  cd C:\Users\KIIT\RoyalMailHotel
+  341  https://github.com/KeithGalli/NumPy.git
+  342  ls -al
+  343  ln -s recipes.txt
+  344  ls -al
+  345  ps
+  346  jupyter notebook
+  347  #!/bin/bash
+  348  # $1: phrase to find
+  349  # $2: phrase to replace $1
+  350  sed -i 's/\<'$1'\>/'$2'/' $(grep -lwr --include="*.asm" --exclude-dir="crowdmap" --exclude-dir="utils" --exclude-dir=".git" --exclude-dir="animatedgifs" --exclude-dir="patch" $1)
+  351  cd d:
+  352  cd NLP_17092022/
+  353  python -m notebook
+  354  cd
+  355  pwd
+  356  cd d:/
+  357  pwd
+  358  mkdir github
+  359  rmdir github
+  360  pwd
+  361  mkdir test_repo
+  362  cd test_repo/
+  363  pwd
+  364  git init
+  365  git commit
+  366  git add reaqdme.md
+  367  git add readme.md
+  368  git status
+  369  git status
+  370  git commit -m "added readme.md"
+  371  git status
+  372  git status
+  373  git add .
+  374  git status
+  375  git commit -m "made changes"
+  376  git checkout -b new
+  377  git add .
+  378  git commit -m "first commit on new"
+  379  git checkout master
+  380  git add .
+  381  git status
+  382  git commit -m "added test.py"
+  383  git checkout new
+  384  git merge master
+  385  ls
+  386  git checkout master
+  387  dmesg
+  388  free -h 
+  389  free
+  390  cd ..
+  391  cd 
+  392  free
+  393  ls
+  394  find
+  395  clear
+  396  du
+  397  du -h
+  398  df -BK
+  399  man df
+  400  df man
+  401  clear
+  402  man
+  403  clear
+  404  git checkout master
+  405  cd d
+  406  cd d:
+  407  git clone https://github.com/Soujanya0506/IoT-sensors.git
+  408  cd d:
+  409  git clone https://github.com/SujayDas1999/Skin-cancer-prediction.git
+  410  git clone https://github.com/AlexTheAnalyst/Excel-Tutorial.git
+  411  cd d:
+  412  git clone https://github.com/Soujanya0506/IoT-sensors.git
+  413  cd IoT_Dola/
+  414  git clone https://github.com/Soujanya0506/IoT-sensors.git
+  415  cd d:
+  416  pwd
+  417  ls -l 
+  418  cls
+  419  clear
+  420  nano
+  421  CLEAR
+  422  mkdir test_repo
+  423  mkdir test_repo2
+  424  cd test_repo2
+  425  git init
+  426  clear
+  427  git commit
+  428  git add readme.md
+  429  git status
+  430  clear
+  431  git commit -m 
+  432  git commit -m "New File Added readme.md"
+  433  git status
+  434  git status
+  435  git add .
+  436  git status
+  437  git commit -m "Made changes to readme.md"
+  438  git checkout -b new
+  439  git add .
+  440  git commit -m "first commit in new branch"
+  441  git checkout master
+  442  git add .
+  443  git status
+  444  git commit -m "added test.py"
+  445  git checkout new
+  446  git merge master
+  447  git checkout master
+  448  clear
+  449  git remote add origin https://github.com/SiddhantDash6/test_repo_tech_with_tim.git
+  450  clear
+  451  git cheeckout master
+  452  git checkout master
+  453  git push -u origin master
+  454  git push -u origin master
+  455  clear
+  456  git pull origin master
+  457  git add .
+  458  git commit -m "change"
+  459  git push
+  460  git pull origin master
+  461  git commit -m "change"
+  462  git add .
+  463  git commit -m "change"
+  464  git push
+  465  git checkout new
+  466  git push origin new
+  467  git clone https://github.com/Soujanya0506/IoT-sensors.git
+  468  git clone analysis_part2.ipynb
+  469  cls
+  470  clear
+  471  cd d:
+  472  clear
+  473  cd CampusX_DataSets
+  474  mkdir Session28
+  475  cd Session28
+  476  clear
+  477  git clone https://github.com/campusx-official/data-wrangling.git
+  478  git clone 
+  479  git clone https://github.com/planetoftheweb/learnangular5.git
+  480  ls -l
+  481  who
+  482  whoami
+  483  ./a.out
+  484  git config --global user.name "siddhantdash98@gmail.com"
+  485  git config --global user.email "siddhantdash98@gmail.com"
+  486  git config --list
+  487  clear
+  488  ls
+  489  cd IBA_IOAPDATA/
+  490  ls
+  491  cd 2020-10-25_16-48-56/
+  492  ls
+  493  cd images/
+  494  ls
+  495  open test1.jpeg 
+  496  cd ..
+  497  cd logs/
+  498  ls
+  499  cat iBA_Launcher_2020-10-25_17-03-58.log
+  500  pwd
+  501  cd d:
+  502  cd stsDirectory/
+  503  cd HospitalManagementSystem/
+  504  git init
+  505  git status
+  506  git add .
+  507  git status
+  508  git commit -m "first Commit"
+  509  git status
+  510  git remote add origin https://github.com/SiddhantDash6/SpringBootUdemy.git
+  511  git push --set-upstream origin master
+  512  git status
+  513  git checkout -b 01-ground-zero-base
+  514  git status
+  515  history
+  516  git push --set-upstream origin 01-ground-zero-base 
+  517  git branch
+  518  git show-branch
+  519  git checkout master
+  520  git status
+  521  git branch
+  522  git merge 01-ground-zero-base 
+  523  git show-branch
+  524  git push
+  525  history > output.txt
